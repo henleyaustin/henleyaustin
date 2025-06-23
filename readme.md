@@ -35,4 +35,4 @@ Designed to track and organize card collections across multiple brands. Currentl
 
 ---
 
-📬 **Feel free to reach out anytime!**
+**Feel free to reach out anytime!**
