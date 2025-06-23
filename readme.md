@@ -1,6 +1,6 @@
 # 👋 Hey, I'm Austin!
 
-I'm a software developer specializing in the **.NET / Angular** stack. Many of my recent Github projects are personal explorations or apps I'm currently developing privately, so they're not set as open-source. If you're curious to check them out or discuss any details, feel free to reach out—I'm always happy to walk through the code or share what I've been working on!
+I'm a software developer specializing in the **.NET / Angular** stack. Many of my recent Github projects are personal explorations or apps I'm currently developing privately, so they're not set as open-source. If you're curious to check them out or discuss any details, feel free to reach out — I'm always happy to walk through the code or share what I've been working on!
 
 ---
 
