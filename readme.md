@@ -1,6 +1,6 @@
-# 👋 Hey, I'm Austin!
+# Hey, I'm Austin!
 
-I'm a software developer specializing in the **.NET / Angular** stack. Many of my recent Github projects are personal explorations or apps I'm currently developing privately, so they're not set as open-source. If you're curious to check them out or discuss any details, feel free to reach out — I'm always happy to walk through the code or share what I've been working on!
+I'm a software developer specializing in the **.NET / Angular** stack. Many of my recent Github projects are personal explorations or apps I'm currently developing privately, so they're not set as open-source. If you're curious to check them out or discuss any details, feel free to reach out. I'm always happy to walk through the code or share what I've been working on!
 
 ---
 
@@ -19,19 +19,19 @@ Add options to a spinning wheel and let chance decide.
 
 ---
 
-### SideTrip – AI-Powered Travel App  
-An AI-assisted travel planning tool using Google AI and Maps SDK to suggest activities and stops based on your destination.
+### Encore Scount
+Search for the closest tour stops of your favorite band!
 
-**Tech Stack:** Angular 19  
-_Photos and demo coming soon!_
+**Tech Stack:** Next.js, PostgreSQL
+[Check it out](https://www.encorescout.com)
 
 ---
 
-### My Binder – Card Collecting App  
-Designed to track and organize card collections across multiple brands. Currently supports scanning and OCR for Pokémon cards. This project is the most recent but also the most early on in development!
+### Movie-go-round
+Upload your watchlists for imdb, letterboxd and sign into plex. Let the wheel decide your next movie!
 
-**Tech Stack:** Next.js, PostgreSQL  
-[Try the early alpha](https://pokemon-app-kappa-jade.vercel.app/)
+**Tech Stack:** Svelte, PostgreSQL
+[Check it out](https://www.movie-go-round.com)
 
 ---
 
