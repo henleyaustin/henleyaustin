@@ -12,6 +12,21 @@ If you're interested in any of these projects or want to chat about implementati
 
 # Recent Personal Projects
 
+## Vinyl Router
+Route your turntable's audio through your PC to any speaker or Google Cast group, with live song identification and album art.
+
+**Tech Stack:** C# / WPF (.NET 8), NAudio, Google Cast protocol
+
+### Challenges / Lessons
+- Built a **single-capture audio pipeline** where one WASAPI stream fans out to playback, level meters, song fingerprinting, and casting at the same time.
+- Implemented **native Google Cast output** by discovering devices over mDNS and hosting a local HTTP server that streams live audio, so no virtual audio driver is needed.
+- Integrated **Shazam-style audio fingerprinting** (FFT and spectral peak extraction) with self-imposed rate limiting against an unofficial API.
+- Hand-rolled a **custom WPF dark theme** with control templates instead of using a UI library, and learned more about WPF's quirks than I ever planned to.
+
+🔗 https://github.com/henleyaustin/VinylRouter
+
+---
+
 ## Roulette Together
 Add options to a spinning wheel and let chance decide.
 
@@ -43,21 +58,6 @@ Search for the closest tour stops of your favorite bands.
 - Focused heavily on **cost optimization**, since map and ticket APIs can get expensive quickly.
 
 🔗 https://www.encorescout.com
-
----
-
-## Movie-Go-Round
-Upload your watchlists from IMDb or Letterboxd and let the wheel decide what movie you watch next.
-
-**Tech Stack:** Svelte, PostgreSQL
-
-### Challenges / Lessons
-- Explored **Svelte’s component model and reactive state**, which makes building the UI pretty lightweight.
-- Had to work around the lack of affordable **public APIs for IMDb and Letterboxd**, which required alternative approaches for ingesting user watchlists.
-- Built a **custom spinning disc animation** inspired by old burned DVDs, which required a mix of CSS animation and state control.
-- Learned a lot about balancing **UX expectations with external data limitations**.
-
-🔗 https://www.movie-go-round.com
 
 ---
 
